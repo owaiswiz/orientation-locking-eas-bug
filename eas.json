@@ -16,6 +16,11 @@
       "development": {
         "buildType": "development-client",
         "distribution": "internal"
+      },
+      "simulator": {
+        "workflow": "managed",
+        "buildType": "development-client",
+        "distribution": "simulator"
       }
     }
   }
