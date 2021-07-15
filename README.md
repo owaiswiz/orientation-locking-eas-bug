@@ -1,0 +1,3 @@
+- It works on Android every time
+- It works on iOS (simulator) only if you are using the Expo go app
+- It does not work on iOS (simulator) if it's built with EAS (doesn't matter if it's a development client build or a release build - neither work)
