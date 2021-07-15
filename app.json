@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.owaissimplero.testapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.owaissimplero.testapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
